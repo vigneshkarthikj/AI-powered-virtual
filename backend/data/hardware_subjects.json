@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Desktop & Laptop Logic Architecture",
+    "category": "Computer Assembly",
+    "difficulty": 5,
+    "importance": 5,
+    "required_hours": 15
+  },
+  {
+    "id": 2,
+    "name": "Keyboard & Mouse Input Peripheral Interfacing",
+    "category": "Peripheral Devices",
+    "difficulty": 3,
+    "importance": 4,
+    "required_hours": 10
+  },
+  {
+    "id": 3,
+    "name": "Display Panels & Monitor Control Electronics",
+    "category": "Peripheral Devices",
+    "difficulty": 4,
+    "importance": 4,
+    "required_hours": 12
+  },
+  {
+    "id": 4,
+    "name": "Printers, Scanners & Plotters Mechanical Systems",
+    "category": "Peripheral Devices",
+    "difficulty": 4,
+    "importance": 3,
+    "required_hours": 10
+  },
+  {
+    "id": 5,
+    "name": "Flash Memory & Hard Drive Storage Media",
+    "category": "Storage Devices",
+    "difficulty": 5,
+    "importance": 4,
+    "required_hours": 14
+  },
+  {
+    "id": 6,
+    "name": "Embedded Microcontrollers for Device Drivers",
+    "category": "Computer Assembly",
+    "difficulty": 5,
+    "importance": 5,
+    "required_hours": 18
+  },
+  {
+    "id": 7,
+    "name": "PCB Manufacturing & Solder Quality Control",
+    "category": "Quality Assurance",
+    "difficulty": 3,
+    "importance": 3,
+    "required_hours": 8
+  },
+  {
+    "id": 8,
+    "name": "Hardware Safety, Grounding & Electromagnetic Compatibility (EMC)",
+    "category": "Quality Assurance",
+    "difficulty": 3,
+    "importance": 4,
+    "required_hours": 9
+  }
+]
