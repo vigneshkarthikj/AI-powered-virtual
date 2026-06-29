@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const API_URL = "https://ai-powered-virtual.onrender.com";
+const API_URL = "";
 function Login({ onLogin }) {
   const [isRegister, setIsRegister] = useState(false);
   const [isForgotPassword, setIsForgotPassword] = useState(false);
