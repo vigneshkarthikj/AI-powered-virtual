@@ -1,0 +1,11 @@
+{
+  "name": "ai-powered-virtual-assistant-root",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "build": "npm run build -w frontend"
+  }
+}

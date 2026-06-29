@@ -1,0 +1,9 @@
+# Node dependency folders
+node_modules/
+
+# Local databases
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
