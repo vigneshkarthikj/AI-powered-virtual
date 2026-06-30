@@ -9,21 +9,21 @@ print("GEMINI_API_KEY:", os.getenv("GEMINI_API_KEY"))
 print("Current working directory:", os.getcwd())
 
 # Configure Gemini
-api_key = os.getenv("GEMINI_API_KEY")
-if api_key:
-    genai.configure(api_key=api_key)
+# Don't configure Gemini here.
+# We'll configure it inside get_gemini_client().
 
 # We use gemini-1.5-flash for speed and lower latency, ideal for interactive academic helper tasks
 DEFAULT_MODEL = "gemini-1.5-flash"
 
 def get_gemini_client():
+    api_key = os.getenv("GEMINI_API_KEY")
+
+    print("API KEY FOUND:", api_key)
+
     if not api_key:
-        # Check env again in case it was set dynamically after startup
-        env_key = os.getenv("GEMINI_API_KEY")
-        if env_key:
-            genai.configure(api_key=env_key)
-            return True
         return False
+
+    genai.configure(api_key=api_key)
     return True
 
 def ask_gemini_chatbot(history: list, user_question: str, system_instruction: str = None) -> str:
